@@ -13,8 +13,8 @@ try:
     # Set COUNSTs   
     STARTINDEX = 0
     BATCHSIZE = 500
-    PATH = "C:\Parth\Parth School\AP Research\\Translation-Based-TS-in-Sanskrit\data\\"
-
+    PATH = None # Specify your file path here
+    
     if PATH == None:
         raise Exception("PATH must be specified")
 
