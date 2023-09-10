@@ -19,3 +19,6 @@ The final_averages.py file compiles previously found ROUGE scores and provides t
 IMPORTANT: To run as expected, the calculate_ttest.py file requires ROUGE scores to be compiled into one single file stored in the results folder. The Python file can then be edited to account for its filename.
 
 This script ultimately runs a one-tailed paired t test on the compiled ROUGE scores and prints results to the terminal
+
+## Acknowledgements
+This research relies heavily on Google's LongT5 model and libraries including HuggingFace's transformers library, Microsoft's nlp-recipies library, and the translators library. 
