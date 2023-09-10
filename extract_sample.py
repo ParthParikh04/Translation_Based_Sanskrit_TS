@@ -23,7 +23,7 @@ try:
     # Set constants  
     STARTINDEX = 0
     BATCHSIZE = 10
-    PATH = "C:\Parth\Parth School\AP Research\\Translation-Based-TS-in-Sanskrit\data\\"
+    PATH = None # Specify your file path here
 
     if PATH == None:
         raise Exception("PATH must be specified")
