@@ -15,10 +15,10 @@ The main.py script is the primary script that is used to find ROUGE scores on th
 ### Cumulative Averages
 The final_averages.py file compiles previously found ROUGE scores and provides the average score for each ROUGE metric. Results from this script are stored in a "cumulative" folder within the "results" folder created previously.
 
-### t test Results
+### Conduct t test
 IMPORTANT: To run as expected, the calculate_ttest.py file requires ROUGE scores to be compiled into one single file stored in the results folder. The Python file can then be edited to account for its filename.
 
 This script ultimately runs a one-tailed paired t test on the compiled ROUGE scores and prints results to the terminal
 
 ## Acknowledgements
-This research relies heavily on Google's LongT5 model and libraries including HuggingFace's transformers library, Microsoft's nlp-recipies library, and the translators library. 
+This research relies heavily on Google's LongT5 model and libraries including HuggingFace's transformers library, Microsoft's nlp-recipies library, and the translators library. My research would never have been possible without the support of my research advisor, Mr.Robert Hodgson, who has provided guidance and encouragement to me throughout this research process; Dr. Avinash Varna, who has provided technical mentorship during the implementation of the methodology; the administration at McDowell High School who has supported the AP Research program; the Sanskrit as a Foreign Language program for kindling my love for Sanskrit; and my peers who have reviewed my paper and provided suggestions without which this research would never have reached its current state. I am sincerely grateful to all who have contributed to making this paper possible!
